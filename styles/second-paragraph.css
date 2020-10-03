@@ -85,7 +85,7 @@
 .second-paragraph-picture-plus {
     position: absolute;
     left: -14px;
-    bottom: -10.6px;
+    bottom: -11px;
     width: 35.72px;
     height: 35.64px;
     z-index: 3;
@@ -108,13 +108,13 @@
     align-items: flex-end;
     width: 132px;
     height: 60px;
-    background: white;
+    background: #FFFFFF;
     border-radius: 16px 0px 0px 0px;
     right: 0;
-    bottom: 4px;
+    bottom: 3px;
     z-index: 3;
 }
 
-.second-paragraph-picture-navigation img {
+.second-paragraph-picture-navigation a {
     margin-left: 22px;
 }

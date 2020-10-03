@@ -1,0 +1,120 @@
+.second-paragraph {
+    background-color: #F8F8F8;
+    margin-top: 116px;
+    width: auto;
+    height: 774px;
+}
+
+.second-paragraph-circle {
+    width: 21.95px;
+    height: 22px;
+    margin-top: 50px;
+}
+
+.second-paragraph-content {
+    width: 1162px;
+    height: 774px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 301px 0 137px;
+}
+
+.second-paragraph-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 79px 0 179px 0;
+
+}
+
+.second-paragraph-text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 145px 20px 30px 0;
+    width: 190px;
+}
+
+.second-paragraph-main-text {
+    width: 450px;
+    height: 144px;
+    font-weight: 400;
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.second-paragraph-quote {
+    font-family: 'Inter', sans-serif;
+    line-height: 43px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.85);
+    margin: 0;
+}
+
+.second-paragraph-quote-header {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 38px;
+    margin: 45px 0 0 0;
+}
+
+.second-paragraph-picture {
+    position: relative;
+}
+
+.second-paragraph-picture-person {
+    position: relative;
+    border-radius: 12px 12px 0 0;
+    margin: 130px 0 0 0;
+    z-index: 2;
+}
+
+.second-paragraph-picture-plus {
+    position: absolute;
+    left: -14px;
+    bottom: -11px;
+    width: 35.72px;
+    height: 35.64px;
+    z-index: 3;
+}
+
+.second-paragraph-picture-circle {
+    position: absolute;
+    top: 110px;
+    right: -19px;
+    width: 42px;
+    height: 42px;
+    z-index: 1;
+}
+
+.second-paragraph-picture-navigation {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 132px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 16px 0px 0px 0px;
+    right: 0;
+    bottom: 3px;
+    z-index: 3;
+}
+
+.second-paragraph-picture-navigation a {
+    margin-left: 22px;
+}

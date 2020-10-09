@@ -9,7 +9,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0 190px;
+    margin: 0 12%;
     padding: 21px 0 26px 0;
     border-radius: 0.6px;
     border-bottom-style: solid;
@@ -19,6 +19,12 @@
     font-size: 17px;
     line-height: 28px;
     color: #848484;
+}
+
+.footer-content-image {
+    background-image: url("../assets/orange_green_picture.svg");
+    width: 41px;
+    height: 41px;
 }
 
 .footer-container {
@@ -37,3 +43,11 @@
     justify-content: space-between;
     align-items: flex-end;
 }
+
+@media (max-width: 1100px) {
+    .footer-content-image {
+        display: none;
+    }
+}
+
+@media (max-width: 720px) {}

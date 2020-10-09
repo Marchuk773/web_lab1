@@ -4,7 +4,7 @@
 }
 
 .third-paragraph-content {
-    margin: 146px 160px 0 265px;
+    margin: 7% 10.4% 0 12%;
 }
 
 .third-paragraph-header {
@@ -28,22 +28,16 @@
     font-weight: 600;
     font-size: 17px;
     line-height: 60px;
+    margin-bottom: 4%;
+}
+
+.third-paragraph-view-all a {
+    text-decoration: none;
     color: #FB8F1D;
 }
 
-.third-paragraph-plus {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 400px;
-    top: -54px;
-}
-
-.third-paragraph-image-container {
-    margin-top: 56px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.third-paragraph-view-all a:hover {
+    font-weight: 700;
 }
 
 .third-paragraph-youga-img {
@@ -74,30 +68,6 @@
     height: 233px;
 }
 
-.third-paragraph-text-container {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 13px;
-}
-
-.third-paragraph-circle-left {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: -110px;
-    top: 26px;
-}
-
-.third-paragraph-circle-bottom {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    bottom: -75px;
-    left: 720px;
-}
-
 .third-paragraph-text {
     display: flex;
     flex-direction: column;
@@ -125,4 +95,63 @@
     line-height: 28px;
     color: #FB8F1D;
     text-decoration: none;
+}
+
+.third-paragraph-text a:hover {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.third-paragraph-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.responsive-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1175px;
+    margin-bottom: 10%;
+}
+
+.responsive-container-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 48.1%;
+}
+
+.responsive-container-item {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1500px) {
+    .responsive-container {
+        width: 100%;
+    }
+
+    .third-paragraph-content {
+        margin: 7% 6.4% 0 8%;
+    }
+
+    .responsive-container-items {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 700px) {
+    .responsive-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .third-paragraph-header {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
 }

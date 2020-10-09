@@ -6,12 +6,17 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin: 0px 12% 0 16%;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
 }
 
-.main-header img {
+.main-header-image {
+    background-image: url("../assets/orange_green_picture.svg");
+    width: 50px;
+    background-repeat: no-repeat;
+    height: 50px;
     margin-right: 8%;
 }
 
@@ -36,12 +41,16 @@
     color: #202336;
 }
 
+.header-content:hover {
+    color: black;
+}
+
 .header-buttons {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     font-weight: normal;
-    margin: 35px;
+    margin: 3%;
     margin-right: 0;
 }
 
@@ -49,16 +58,43 @@
     font-weight: 500;
     margin-right: 20%;
     padding: 11% 44%;
-    font-weight: 500;
     border: 2px solid #FB8F1D;
     color: #FB8F1D;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 15px;
     text-decoration: none;
     border-radius: 9px;
 }
 
+.header-buttons a:hover {
+    background: rgb(244, 187, 51);
+    background: linear-gradient(0deg, rgba(244, 187, 51, 1) 96%, rgba(253, 187, 45, 1) 100%);
+    border-color: rgb(244, 187, 51);
+    color: white;
+}
+
+.header-buttons a:active {
+    background: rgb(244, 141, 51);
+    background: linear-gradient(0deg, rgba(244, 141, 51, 1) 96%, rgba(251, 96, 0, 1) 100%);
+    border-color: rgb(244, 141, 51);
+    color: white;
+}
+
 .header-buttons a:last-child {
     color: white;
     background-color: #FB8F1D;
+}
+
+@media (max-width: 1200px) {
+    .main-header-image {
+        display: none;
+    }
+
+    .header-buttons {
+        margin-right: 4%;
+    }
+}
+
+@media (max-width: 800px) {
+    /* burger wrapper */
 }

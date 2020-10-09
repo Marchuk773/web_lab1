@@ -1,0 +1,13 @@
+/*  styles  */
+@import 'header.css';
+@import 'first-paragraph.css';
+@import 'second-paragraph.css';
+@import 'second-paragraph-media.css';
+@import 'third-paragraph.css';
+@import 'footer.css';
+@import 'large-screen-media.css';
+
+/*  fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&display=swap");

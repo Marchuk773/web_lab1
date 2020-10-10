@@ -116,7 +116,7 @@
 
 @media (max-width: 800px) {
     .main-header {
-        margin: 0 100px 0 8%;
+        margin: 0 100px;
     }
 
     .header-text-ul {
@@ -127,6 +127,7 @@
 
     .header-text-ul.show {
         display: flex;
+        margin: 35% 0 0 0;
     }
 
     .hamburger {
@@ -144,6 +145,14 @@
         background-color: #202336;
 
     }
+
+    .wrapper.show {
+        margin: 5% 0 0 5%;
+    }
+
+    .main-header.show {
+        align-items: flex-start;
+    }
 }
 
 @media (max-width: 500px) {
@@ -160,6 +169,12 @@
         width: 40%;
         margin: 7% 0 0 0;
         padding: 11% 60% 11% 60%;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-header {
+        margin-left: 10%;
     }
 }
 

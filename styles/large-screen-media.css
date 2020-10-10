@@ -1,0 +1,6 @@
+@media (min-width:1920px) {
+    main {
+        width: 1920px;
+        margin: 0 auto;
+    }
+}

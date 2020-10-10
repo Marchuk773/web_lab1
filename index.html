@@ -5,154 +5,169 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible'>
     <title>Thousand Sunny</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&display=swap" rel="stylesheet">
-    <link rel='stylesheet' type='text/css' media='screen' href='styles/header.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='styles/first-paragraph.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='styles/second-paragraph.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='styles/third-paragraph.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='styles/footer.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/styles.css'>
 </head>
 
 <body class="body">
-    <header class="main-header">
-        <div class="header-text">
-            <a href="#" class="header-content">Home</a>
-            <a href="#" class="header-content">Destinations</a>
-            <a href="#" class="header-content">About</a>
-            <a href="#" class="header-content">Partner</a>
-        </div>
-        <img src="assets/orange_green_picture.svg">
-        <div class="header-buttons">
-            <a href="#">Login</a>
-            <a href="#">Register</a>
-        </div>
-    </header>
+    <main>
+        <header class="main-header" id="main__header">
+            <div class="wrapper" id="wrapper">
+                <button class="hamburger" id="hamburger">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <ul class="header-text-ul" id="header-text-ul">
+                    <li class="header-content"><a href="#" id="first">Home</a></li>
+                    <li class="header-content"><a href="#">Destinations</a></li>
+                    <li class="header-content"><a href="#">About</a></li>
+                    <li class="header-content"><a href="#">Partner</a></li>
+                </ul>
+            </div>
+            <div class="main-header-image"></div>
+            <div class="header-buttons">
+                <a href="#">Login</a>
+                <a href="#">Register</a>
+            </div>
+        </header>
 
-    <nav class="first-paragraph">
-        <div class="first-paragraph-content">
-            <img src="assets/green_circle.svg" class="first-paragraph-circle">
-            <p class="first-paragraph-header">Guides by Thousand</p>
-            <p class="first-paragraph-header">Sunny</p>
-            <div class="first-paragraph-text">
-                Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is the
-                ultimate resource before and during a trip.
+        <section class="first-paragraph">
+            <div class="first-paragraph-content">
+                <h1 class="first-paragraph-header">Guides by Thousand Sunny</h1>
+                <span class="first-paragraph-text">
+                    Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is
+                    the
+                    ultimate resource before and during a trip.
+                </span>
+                <div class="first-paragraph-footer">
+                    <a href="#">Download</a>
+                </div>
             </div>
-            <div class="first-paragraph-footer">
-                <a href="#">Download</a>
-                <img src="assets/plus.svg">
+            <div class="first-paragraph-images">
+                <img src="assets/person.svg">
             </div>
-        </div>
-        <img src="assets/person.svg">
-        <img src="assets/plus.svg" class="first-paragraph-plus">
-    </nav>
-    <div class="container">
-        <div class="second-paragraph">
-            <div class="second-paragraph-content">
-                <img src="assets/green_circle.svg" class="second-paragraph-circle">
-                <div class="second-paragraph-text">
-                    <h1>Testimonials</h1>
-                    <div class="stars">
-                        <img src="assets/star.svg">
-                        <img src="assets/star.svg">
-                        <img src="assets/star.svg">
-                        <img src="assets/star.svg">
-                        <img src="assets/star.svg">
-                    </div>
-                    <div class="second-paragraph-main-text">
-                        “Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu,
-                        facilisis
-                        quis purus. Morbi blandit sit amet turpis nec”
-                    </div>
-                    <div class="second-paragraph-quote">
-                        <div class="second-paragraph-quote-header">
-                            Edward Newgate
+        </section>
+        <section class="container">
+            <div class="second-paragraph">
+                <div class="second-paragraph-content">
+                    <div class="second-paragraph-text">
+                        <h1>Testimonials</h1>
+                        <div class="stars">
+                            <img src="assets/star.svg">
+                            <img src="assets/star.svg">
+                            <img src="assets/star.svg">
+                            <img src="assets/star.svg">
+                            <img src="assets/star.svg">
                         </div>
-                        Founder Circle
+                        <span class="second-paragraph-main-text">
+                            “Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu,
+                            facilisis
+                            quis purus. Morbi blandit sit amet turpis nec”
+                        </span>
+                        <div class="second-paragraph-quote">
+                            <div class="second-paragraph-quote-header">
+                                Edward Newgateq
+                            </div>
+                            Founder Circle
+                        </div>
+                    </div>
+                    <div class="second-paragraph-picture">
+                        <img src="assets/real_person.svg" class="second-paragraph-picture-person">
+                        <div class="second-paragraph-picture-plus"></div>
+                        <div class="second-paragraph-picture-circle"></div>
+                        <div class="second-paragraph-picture-navigation">
+                            <a href="#">
+                                <div class="previous"></div>
+                            </a>
+                            <a href="#">
+                                <div class="next"></div>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="second-paragraph-picture">
-                    <img src="assets/real_person.svg" class="second-paragraph-picture-person">
-                    <img src="assets/plus.svg" class="second-paragraph-picture-plus">
-                    <img src="assets/green_circle.svg" class="second-paragraph-picture-circle">
-                    <div class="second-paragraph-picture-navigation">
-                        <a href="#"><img src="assets/previous.svg"></a>
-                        <a href="#"><img src="assets/next.svg"></a>
+            </div>
+        </section>
+
+        <section class="third-paragraph">
+            <div class="third-paragraph-content">
+                <div class="third-paragraph-header">
+                    Trending stories
+                    <div class="third-paragraph-view-all">
+                        <a href="#">View all</a>
+                        <img src="assets/orange_next.svg">
+                    </div>
+                </div>
+                <div class="third-paragraph-container">
+                    <div class="responsive-container">
+                        <div class="responsive-container-items">
+                            <div class="responsive-container-item">
+                                <div class="third-paragraph-youga-img"></div>
+                                <div class="third-paragraph-text">
+                                    <h1>The many benefits of
+                                        taking a healing holiday</h1>
+                                    ‘Helaing holidays’ are on the rise
+                                    tohelp maximise your health and happines...
+                                    <a href="#">Read more</a>
+                                </div>
+                            </div>
+
+                            <div class="responsive-container-item">
+                                <div class="third-paragraph-food-img"></div>
+                                <div class="third-paragraph-text">
+                                    <h1>The best Kyoto restaurant
+                                        to try Japanese food</h1>
+                                    From tofu to teahouses, here’s our guide to Kyoto’s best restaurants
+                                    to visit...
+                                    <a href="#">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="responsive-container-items">
+                            <div class="responsive-container-item">
+                                <div class="third-paragraph-temple-img"></div>
+                                <div class="third-paragraph-text">
+                                    <h1>Skip Chichen Itza and head
+                                        to this remote Yucatan</h1>
+                                    It’s remote and challenging to get,
+                                    but braving the jungle and exploring
+                                    these ruins without the...
+                                    <a href="#">Read more</a>
+                                </div>
+
+                            </div>
+                            <div class="responsive-container-item">
+                                <div class="third-paragraph-surfing-img"></div>
+                                <div class="third-paragraph-text">
+                                    <h1>Surf’s up at these beginner
+                                        spots around the world</h1>
+                                    If learning to surf has in on your to-
+                                    do list for a while, the good news
+                                    is: it’s never too late...
+                                    <a href="#">Read more</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
 
-    <div class="third-paragraph">
-        <div class="third-paragraph-content">
-            <div class="third-paragraph-header">
-                Trending stories
-                <div class="third-paragraph-view-all">
-                    View all
-                    <img src="assets/orange_next.svg">
-                </div>
-                <img src="assets/plus.svg" class="third-paragraph-plus">
+        <footer class="main-footer">
+            <div class="footer-content">
+                <div class="footer-content-image"></div>
+                &copy;2020 Thousand Sunny. All rights reserved
             </div>
-            <div class="third-paragraph-image-container">
-                <div class="third-paragraph-youga-img"></div>
-                <div class="third-paragraph-food-img"></div>
-                <div class="third-paragraph-temple-img"></div>
-                <div class="third-paragraph-surfing-img"></div>
-            </div>
-            <div class="third-paragraph-text-container">
-                <img src="assets/green_circle.svg" class="third-paragraph-circle-left">
-                <img src="assets/green_circle.svg" class="third-paragraph-circle-bottom">
-                <div class="third-paragraph-text">
-                    <h1>The many benefits of
-                        taking a healing holiday</h1>
-                    ‘Helaing holidays’ are on the rise
-                    tohelp maximise your health and happines...
-                    <a href="#">Read more</a>
-                </div>
-                <div class="third-paragraph-text">
-                    <h1>The best Kyoto restaurant
-                        to try Japanese food</h1>
-                    From tofu to teahouses, here’s our guide to Kyoto’s best restaurants
-                    to visit...
-                    <a href="#">Read more</a>
-                </div>
-                <div class="third-paragraph-text">
-                    <h1>Skip Chichen Itza and head
-                        to this remote Yucatan</h1>
-                    It’s remote and challenging to get,
-                    but braving the jungle and exploring
-                    these ruins without the...
-                    <a href="#">Read more</a>
-                </div>
-                <div class="third-paragraph-text">
-                    <h1>Surf’s up at these beginner
-                        spots around the world</h1>
-                    If learning to surf has in on your to-
-                    do list for a while, the good news
-                    is: it’s never too late...
-                    <a href="#">Read more</a>
+            <div class="footer-container">
+                <div class="footer-logos">
+                    <a href="#"><img src="assets/tweeter_logo.svg"></a>
+                    <a href="#"><img src="assets/facebook_logo.svg"></a>
+                    <a href="#"><img src="assets/instagram_logo.svg"></a>
+                    <a href="#"><img src="assets/li_logo.svg"></a>
+                    <a href="#"><img src="assets/youtube_logo.svg"></a>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <footer class="main-footer">
-        <div class="footer-content">
-            <img src="assets/orange_green_picture.svg">
-            &copy;2020 Thousand Sunny. All rights reserved
-        </div>
-        <div class="footer-container">
-            <div class="footer-logos">
-                <a href="#"><img src="assets/tweeter_logo.svg"></a>
-                <a href="#"><img src="assets/facebook_logo.svg"></a>
-                <a href="#"><img src="assets/instagram_logo.svg"></a>
-                <a href="#"><img src="assets/li_logo.svg"></a>
-                <a href="#"><img src="assets/youtube_logo.svg"></a>
-            </div>
-        </div>
-    </footer>
+        </footer>
+    </main>
+    <script src="scripts/main.js"></script>
 </body>
 
 </html>

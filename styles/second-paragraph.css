@@ -1,31 +1,25 @@
 .second-paragraph {
     background-color: #F8F8F8;
-    margin-top: 116px;
-    width: auto;
+    margin-top: 7%;
+    width: 100%;
     height: 774px;
 }
 
-.second-paragraph-circle {
-    width: 21.95px;
-    height: 22px;
-    margin-top: 50px;
-}
-
 .second-paragraph-content {
-    width: 1162px;
+    width: 72.6%;
     height: 774px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0 301px 0 137px;
+    margin: 0 5% 0 17.5%;
 }
 
 .second-paragraph-text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 79px 0 179px 0;
+    margin: 5% 0 14.5% 0;
 
 }
 
@@ -40,13 +34,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 145px 20px 30px 0;
+    margin: 33% 20px 30px 0;
     width: 190px;
 }
 
 .second-paragraph-main-text {
     width: 450px;
-    height: 144px;
+    height: 100%;
     font-weight: 400;
     font-family: 'Mulish', sans-serif;
     font-size: 24px;
@@ -63,7 +57,6 @@
 }
 
 .second-paragraph-quote-header {
-    font-family: 'Inter', sans-serif;
     color: black;
     font-weight: 700;
     font-size: 22px;
@@ -83,15 +76,22 @@
 }
 
 .second-paragraph-picture-plus {
+    background-image: url("../assets/plus.svg");
     position: absolute;
-    left: -14px;
+    left: -15px;
     bottom: -11px;
     width: 35.72px;
     height: 35.64px;
     z-index: 3;
 }
 
+.second-paragraph-picture-plus:hover {
+    transform: rotate(270deg);
+    transition: 1.5s;
+}
+
 .second-paragraph-picture-circle {
+    background-image: url("../assets/green_circle.svg");
     position: absolute;
     top: 110px;
     right: -19px;
@@ -116,5 +116,40 @@
 }
 
 .second-paragraph-picture-navigation a {
+    z-index: 3;
+    position: relative;
     margin-left: 22px;
+}
+
+.next {
+    width: 40px;
+    height: 40px;
+    background-image: url("../assets/previous.svg");
+    transform: rotate(-180deg);
+}
+
+.next:hover {
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s;
+    background-image: url("../assets/next.svg");
+    transform: none;
+}
+
+.previous {
+    width: 40px;
+    height: 40px;
+    background-image: url("../assets/previous.svg");
+}
+
+.previous:hover {
+    width: 50px;
+    height: 50px;
+    transition: 1s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../assets/next.svg");
+    transform: rotate(-180deg);
 }

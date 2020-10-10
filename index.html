@@ -5,17 +5,23 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible'>
     <title>Thousand Sunny</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel='stylesheet' type='text/css' media='screen' href='styles/styles.css'>
 </head>
 
 <body class="body">
     <main>
         <header class="main-header">
-            <div class="header-text">
-                <a href="#" class="header-content">Home</a>
-                <a href="#" class="header-content">Destinations</a>
-                <a href="#" class="header-content">About</a>
-                <a href="#" class="header-content">Partner</a>
+            <div class="wrapper">
+                <button class="hamburger" id="hamburger">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <ul class="header-text-ul" id="header-text-ul">
+                    <li class="header-content"><a href="#" id="first">Home</a></li>
+                    <li class="header-content"><a href="#">Destinations</a></li>
+                    <li class="header-content"><a href="#">About</a></li>
+                    <li class="header-content"><a href="#">Partner</a></li>
+                </ul>
             </div>
             <div class="main-header-image"></div>
             <div class="header-buttons">
@@ -24,7 +30,7 @@
             </div>
         </header>
 
-        <nav class="first-paragraph">
+        <section class="first-paragraph">
             <div class="first-paragraph-content">
                 <h1 class="first-paragraph-header">Guides by Thousand Sunny</h1>
                 <span class="first-paragraph-text">
@@ -39,8 +45,8 @@
             <div class="first-paragraph-images">
                 <img src="assets/person.svg">
             </div>
-        </nav>
-        <div class="container">
+        </section>
+        <section class="container">
             <div class="second-paragraph">
                 <div class="second-paragraph-content">
                     <div class="second-paragraph-text">
@@ -79,9 +85,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="third-paragraph">
+        <section class="third-paragraph">
             <div class="third-paragraph-content">
                 <div class="third-paragraph-header">
                     Trending stories
@@ -143,23 +149,25 @@
                     </div>
                 </div>
             </div>
+        </section>
 
-            <footer class="main-footer">
-                <div class="footer-content">
-                    <div class="footer-content-image"></div>
-                    &copy;2020 Thousand Sunny. All rights reserved
+        <footer class="main-footer">
+            <div class="footer-content">
+                <div class="footer-content-image"></div>
+                &copy;2020 Thousand Sunny. All rights reserved
+            </div>
+            <div class="footer-container">
+                <div class="footer-logos">
+                    <a href="#"><img src="assets/tweeter_logo.svg"></a>
+                    <a href="#"><img src="assets/facebook_logo.svg"></a>
+                    <a href="#"><img src="assets/instagram_logo.svg"></a>
+                    <a href="#"><img src="assets/li_logo.svg"></a>
+                    <a href="#"><img src="assets/youtube_logo.svg"></a>
                 </div>
-                <div class="footer-container">
-                    <div class="footer-logos">
-                        <a href="#"><img src="assets/tweeter_logo.svg"></a>
-                        <a href="#"><img src="assets/facebook_logo.svg"></a>
-                        <a href="#"><img src="assets/instagram_logo.svg"></a>
-                        <a href="#"><img src="assets/li_logo.svg"></a>
-                        <a href="#"><img src="assets/youtube_logo.svg"></a>
-                    </div>
-                </div>
-            </footer>
+            </div>
+        </footer>
     </main>
+    <script src="scripts/main.js"></script>
 </body>
 
 </html>

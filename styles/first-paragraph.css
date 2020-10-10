@@ -60,6 +60,10 @@
     background: linear-gradient(0deg, rgba(244, 187, 51, 1) 96%, rgba(253, 187, 45, 1) 100%);
     border-color: rgb(244, 187, 51);
     color: white;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    transition: 1s;
 }
 
 .first-paragraph a:active {
@@ -100,5 +104,23 @@
         font-size: 27px;
         width: 270px;
         line-height: 35px;
+    }
+}
+
+@media (min-width:1920px) {
+    .first-paragraph-text {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .first-paragraph-header {
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    .first-paragraph a {
+        font-size: 23px;
+        width: 220px;
+        height: 70px;
     }
 }

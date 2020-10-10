@@ -85,6 +85,11 @@
     z-index: 3;
 }
 
+.second-paragraph-picture-plus:hover {
+    transform: rotate(270deg);
+    transition: 1.5s;
+}
+
 .second-paragraph-picture-circle {
     background-image: url("../assets/green_circle.svg");
     position: absolute;
@@ -120,10 +125,15 @@
     width: 40px;
     height: 40px;
     background-image: url("../assets/previous.svg");
-    transform: rotate(180deg);
+    transform: rotate(-180deg);
 }
 
 .next:hover {
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s;
     background-image: url("../assets/next.svg");
     transform: none;
 }
@@ -135,6 +145,11 @@
 }
 
 .previous:hover {
+    width: 50px;
+    height: 50px;
+    transition: 1s;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("../assets/next.svg");
-    transform: rotate(180deg);
+    transform: rotate(-180deg);
 }

@@ -1,5 +1,5 @@
 .third-paragraph {
-    height: 862px;
+    height: 762px;
     width: auto;
 }
 
@@ -99,7 +99,8 @@
 
 .third-paragraph-text a:hover {
     font-weight: 800;
-    font-size: 18px;
+    font-size: 24px;
+    transition: 0.5s;
 }
 
 .third-paragraph-container {
@@ -130,8 +131,13 @@
 }
 
 @media (max-width: 1500px) {
+    .third-paragraph {
+        height: 100%;
+    }
+
     .responsive-container {
         width: 100%;
+        margin-bottom: 0;
     }
 
     .third-paragraph-content {
@@ -141,6 +147,10 @@
     .responsive-container-items {
         flex-direction: column;
         align-items: center;
+    }
+
+    .responsive-container-item {
+        margin-bottom: 6%;
     }
 }
 
